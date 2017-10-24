@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspApp", "SimpleAspApp\SimpleAspApp.csproj", "{8658AED0-BF87-4421-AFB7-173315028ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspTests", "SimpleAspTests\SimpleAspTests.csproj", "{98C75EF7-8CF8-4DA9-BD15-EA5D41293A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8658AED0-BF87-4421-AFB7-173315028ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8658AED0-BF87-4421-AFB7-173315028ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8658AED0-BF87-4421-AFB7-173315028ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8658AED0-BF87-4421-AFB7-173315028ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C75EF7-8CF8-4DA9-BD15-EA5D41293A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C75EF7-8CF8-4DA9-BD15-EA5D41293A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C75EF7-8CF8-4DA9-BD15-EA5D41293A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C75EF7-8CF8-4DA9-BD15-EA5D41293A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
