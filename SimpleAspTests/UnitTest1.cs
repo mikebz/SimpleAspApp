@@ -12,5 +12,12 @@ namespace SimpleAspTests
             Weather weather = new Weather();
             Assert.AreEqual(weather.Temperature, 65);
         }
+
+        [TestMethod]
+        public void TestFailure()
+        {
+            Weather weather = new Weather();
+            Assert.AreEqual(weather.Location, "Seattle");
+        }
     }
 }
