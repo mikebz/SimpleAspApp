@@ -8,5 +8,5 @@ build:
 # to run tests again only selected assemblies and/or categories
 test:
   assemblies:
-    **/*Tests.dll
+    - '**/*Tests.dll'
     
