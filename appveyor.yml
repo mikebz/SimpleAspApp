@@ -12,3 +12,9 @@ test:
   assemblies:
     - '**/*Tests.dll'
     
+after_build:
+- cmd: dotnet publish SimpleAspApp --output %appveyor_build_folder%\dist
+
+artifacts:
+- path: dist
+  name: dist.web
