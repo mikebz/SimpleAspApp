@@ -4,7 +4,7 @@ using SimpleAspApp.Models;
 namespace SimpleAspTests
 {
     [TestClass]
-    public class UnitTest1
+    public class WeatherTest
     {
         [TestMethod]
         public void TestCreation()
