@@ -17,7 +17,7 @@ namespace SimpleAspTests
         public void TestFailure()
         {
             Weather weather = new Weather();
-            Assert.AreEqual(weather.Location, "Seattle");
+            Assert.AreEqual(weather.Location, "San Francisco");
         }
     }
 }
